@@ -1,0 +1,49 @@
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<link rel="stylesheet" href="styles/style.css">
+
+<div id="image" class="center-align container">
+  <h1>Top Trumps - Testing</h1>
+</div>
+
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col s6 m4 offset-m1">
+		<button id="StartTest" class="waves-effect waves-light btn">Start Test</button>
+		<div class="card-action">Testing API Call</div><div class="card-attribute" id="TestingAPI"></div>
+			<div class="card-action">Testing Random Number Gen</div><div class="card-attribute" id="RandomNumGen"></div>
+			<div class="card-action">Testing Score Initialised</div><div class="card-attribute" id="Scores"></div>
+			<div class="card-action">Testing Player Score</div><div class="card-attribute" id="PlayerScore"></div>
+			<div class="card-action">Testing Computer Score</div><div class="card-attribute" id="ComputerScore"></div>
+			<div class="card-action">Testing Player Card name is there</div><div class="card-attribute" id="PlayerCardName"></div>
+			<div class="card-action">Testing results panel appears with content</div><div class="card-attribute" id="resultsText"></div>
+			<div class="card-action">Testing Player Card name changes on next card</div><div class="card-attribute" id="PlayerCardNameChange"></div>
+	  
+	  <div id ="content"></div>
+	  
+	  
+        
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<iframe type="text/html" id="iframe" class="object-home" src="index.html"></iframe>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<script  src="helper/gateway.js"></script>
+<script  src="helper/updatescore.js"></script>
+<script  src="helper/randomNumberGen.js"></script>
+<script  src="helper/setupCards.js"></script>
+<script  src="helper/comparison.js"></script>
+<script  src="helper/duplicationCheck.js"></script>
+<script  src="helper/displayFormat.js"></script>
+<script  src="helper/nanCheck.js"></script>
+<script  src="helper/gameSetup.js"></script>
+<script  src="helper/cardNext.js"></script>
+
+<script  src="tests/MainTest.js"></script>
+
